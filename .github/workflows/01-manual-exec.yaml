@@ -12,7 +12,7 @@ jobs:
         with:
           node-version: latest
       - name: Instalando Yarn
-        run: npm install -g Yarn
+        run: npm install -g yarn
       - name: Instando dependencias
         run: yarn
       - name: Executando Testes
